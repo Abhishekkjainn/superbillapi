@@ -6,18 +6,7 @@
       "use": "@vercel/node"
     }
   ],
-  "env": {
-    "GOOGLE_PROJECT_ID": "@google_project_id",
-    "GOOGLE_PRIVATE_KEY_ID": "@google_private_key_id",
-    "GOOGLE_PRIVATE_KEY": "@google_private_key",
-    "GOOGLE_CLIENT_EMAIL": "@google_client_email",
-    "GOOGLE_CLIENT_ID": "@google_client_id",
-    "GOOGLE_AUTH_URI": "@google_auth_uri",
-    "GOOGLE_TOKEN_URI": "@google_token_uri",
-    "GOOGLE_AUTH_PROVIDER_X509_CERT_URL": "@google_auth_provider_x509_cert_url",
-    "GOOGLE_CLIENT_X509_CERT_URL": "@google_client_x509_cert_url",
-    "GOOGLE_UNIVERSE_DOMAIN": "@google_universe_domain"
-  },
+
   "routes": [
     {
       "src": "/(.*)",
